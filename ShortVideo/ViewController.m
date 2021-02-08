@@ -28,7 +28,7 @@
 @implementation ViewController
 - (NSMutableArray *)videoList{
     if (_videoList == nil) {
-        _videoList = [[NSMutableArray alloc] initWithObjects:@"v6",@"v1",@"v3",@"v4",@"v5",@"v12",@"v7",@"v2",@"v8",@"v9",@"v10",@"v11",nil];
+        _videoList = [[NSMutableArray alloc] initWithObjects:@"v6",@"v1",@"v3",@"v4",@"v5",@"v2",nil];
     }
     return _videoList;
 }
